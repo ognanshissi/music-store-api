@@ -1,0 +1,24 @@
+{
+  "name": "GRAPHQL-PORTFOLIO-SYSTEM",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "Ambroise BAZIE",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-graphql": "^0.7.1",
+    "graphql": "^14.1.1",
+    "mongoose": "^5.4.7"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
