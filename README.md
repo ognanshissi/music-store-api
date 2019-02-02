@@ -1,0 +1,2 @@
+# Music NodeJS GraphQL API
+Music API with MongoDB as database and GraphQL as API Query language to handle basic Query and Mutations like creating songs, creating album, creating user etc, all store on MongoDB Atlas

@@ -2,6 +2,7 @@
     "env":{
         "MONGO_USER": "ognanshissi",
         "PASSWORD": "CC3rO6WPuP6gBaJ6",
-        "MONGO_DB": "music-lovers-app"
+        "MONGO_DB": "music-lovers-app",
+        "SECRET_KEY": "JasonIsTesting!SomeNewFEature"
     }
 }

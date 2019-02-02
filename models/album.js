@@ -5,8 +5,8 @@ const Schema = mongoose.Schema;
 const AlbumSchema = new Schema({
 
     artist: {
-        type: String,
-        required: true
+        type: Schema.Types.ObjectId,
+        ref: "Artist"
     },
     title: {
         type: String,
@@ -27,13 +27,9 @@ const AlbumSchema = new Schema({
             type: Schema.Types.ObjectId,
             ref: "Song"
         }
-    ],
+    ]
 
-    created_at: Date,
-    updated_at: Date
-
-
-})
+}, {timestamps: true})
 
 
 module.exports = mongoose.model('Album', AlbumSchema)

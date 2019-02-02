@@ -26,14 +26,12 @@ const songSchema = new Schema({
         ref: 'Album', 
     },
 
-    addedBy: {
+    user: {
         type: Schema.Types.ObjectId,
         ref: 'User'
-    },
-    created_at: Date,
-    updated_at: Date
+    }
 
-})
+}, {timestamps: true})
 
 
 module.exports = mongoose.model('Song', songSchema);

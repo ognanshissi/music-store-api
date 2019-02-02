@@ -19,17 +19,7 @@ const UserSchema = new Schema({
     },
     isActive: Boolean,
 
-    isAdmin: Boolean,
-
-    created_at: Date,
-    updated_at: Date,
-
-    createdSongs: [
-        {
-            type: Schema.Types.ObjectId,
-            ref: "Song"
-        }
-    ]
-})
+    isAdmin: Boolean
+}, {timestamps: true})
 
 module.exports = mongoose.model('User', UserSchema);
