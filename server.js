@@ -11,7 +11,6 @@ const authentication = require('./middleware/authentication')
 const app = express();
 
 
-
 app.use(bodyParser.json()) // parse incoming request
 
 
